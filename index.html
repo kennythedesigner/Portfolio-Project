@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Personal Portfolio</title>
 </head>
 <body>
   <header class="header">
+    <div class="logo">
+      <p>LOGO</p>
+    </div>
     <nav class="nav">
-      <a href="#">LOGO</a>
       <a href="#">Home</a>
       <a href="#">Projects</a>
       <a href="#">Resume</a>
@@ -20,9 +23,14 @@
       <h1>UX Engineer & AI Product Designer</h1>
       <p>Hi, my name is Ken Cosma and I am a UX Engineer and AI Product Designer.</p>
       <p>My expertise is within the develop and design realm, please hit my line for anything.</p>
-      <button type="button">Click here for contact</button>
+    </div>
+    <div class="button--container">
+      <button type="button">
+        Contact me!
+      </button>
     </div>
   </section>
+    <h2 class="section--header">Case Studies</h2>
   <section class="project--gallery">
     <figure class="portfolio-picture">
       <img src="/images/SaaS.png" alt="Saas image">
@@ -41,17 +49,30 @@
       <figcaption class="caption">Fintech Case Study</figcaption>
     </figure>
   </section>
+  <h2 class="section--header">Skills</h2>
   <section class="skill--section">
-    <div class="skill-name-container">
-      <p class="skill-name">
-        HTML
-      </p>
+    <div class="skill--bar">
+      <p>HMTL</p>
+      <div class="html">90%</div>
     </div>
-    <div class="skill-bar">
-      <div class="skill-percentage">
-        percentage = "90"
-      </div>
+    <div class="skill--bar">
+      <p>CSS</p>
+      <div class="css">75%</div>
     </div>
+    <div class="skill--bar">
+      <p>Javascript</p>
+      <div class="javascript">45%</div>
+    </div>
+  </section>
+  <section class="section--header">Education</section>
+  <div class="education--container">
+    <ul>
+      <li>M.S Customer Experience Management | Michigan State University</li>
+      <li>B.A. Experience Architecture | Michigan State University</li>
+    </ul>
+  </div>
+  <section class="footer--section">
+    <p>ken the developer, copy right 2025. </p>
   </section>
 </body>
 </html>
